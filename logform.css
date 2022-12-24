@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik+Gemstones&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outer-body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/pexels-irina-iriser-3134681.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner-body {
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.223);
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 5px black;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #141414;
+}
+
+.header p {
+    font-size: 0.8rem;
+    color: rgb(14, 14, 14);
+    padding-bottom: 8px;
+}
+
+.main-body {
+    margin: 20px 0;
+}
+
+.form-body p {
+    margin: 10px 0;
+}
+
+.form-body label {
+    font-size: 24px;
+    display: block;
+    font-weight: bold;
+    color: rgb(20, 20, 20);
+}
+
+.form-body input {
+    width: 100%;
+    padding: 4px;
+    margin-top: 4px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(101, 101, 101);
+    color: white;
+    border: none;
+}
+
+.form-body input[type="submit"] {
+    background-color: rgb(101, 101, 101);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-body ::placeholder {
+    font-size: 16px;
+}
+
+.form-body input[type="submit"]:hover {
+    background-color: #faf6fe;
+    color: black;
+}
+
+.footer-body {
+    color: rgb(4, 4, 4);
+}
+
+.footer-body a {
+    color: rgb(229, 11, 11);
+}
